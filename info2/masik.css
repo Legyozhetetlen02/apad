@@ -1,0 +1,13 @@
+:root {
+    --sotetebb: #17202b;
+    --sotet: #1a2a3c;
+    --vilagos: #2c6acc;
+    --vilagosabb: #69afdc;
+  }
+  
+  body{
+    background-color: var(--vilagos);
+    color: var(--sotet);
+  }
+
+  

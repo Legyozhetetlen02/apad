@@ -1,0 +1,129 @@
+:root {
+  --sotetebb: #17202b;
+  --sotet: #1a2a3c;
+  --vilagos: #2c6acc;
+  --vilagosabb: #69afdc;
+}
+
+body{
+  background-color: var(--vilagos);
+  color: var(--sotet);
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--sotetebb);
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  img{
+    border-radius: 30px;
+  }
+
+.kezd{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+
+.jobb{  
+    text-align: right;
+}
+
+div .col-lg-6{
+  background-color: var(--vilagosabb);
+  border: var(--sotet) 2px solid;
+  border-radius: 10px;
+}
+
+div .row{
+  margin-bottom: 4px;
+}
+
+img{
+  border: var(--sotet) solid 2px;
+}
+
+.text :first-child{
+  font-size: large;
+  font-weight: bold;
+}
+
+.jelenlegi{
+  text-decoration: underline ;
+  font-weight: bold;
+}
+
+.kartya{
+  width: 10cm;
+  padding: 15px;
+  height: auto;
+  border: var(--sotet) 4px solid;
+  border-radius: 5px;
+  color: black;
+  background-color: var(--sotetebb);
+  margin: 5px;
+  text-align: center;
+  
+}
+
+.kartya :first-child{
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+#szakok{
+  width: fit-content;
+  height: fit-content;
+  margin-top: 2cm;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#felirat{
+  font-size: 300%;
+  margin-top: 2cm;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: black 4px 4px;
+}
